@@ -1,0 +1,54 @@
+.comments_block {
+    padding-left: 50px;
+
+}
+
+.comment-button {
+    color: black;
+    margin-bottom: 70px;
+    margin-top: -30px;
+    margin-left: -50px;
+}
+
+.comment-button-text {
+    color: blue;
+    padding-right: 10px;
+}
+
+.button-submit {
+    background-color: rgb(61, 61, 240);
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: -40px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.log-button {
+    color: gray;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    background-color: aliceblue;
+
+}
+
+.button-submit {
+    background-color: rgb(66, 66, 230);
+    margin-right: 350px;
+}
+
+.button-sub {
+    margin-bottom: 30px;
+
+}
+
+.button-s {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.button-krest {
+    margin-left: 280px;
+}

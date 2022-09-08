@@ -1,0 +1,37 @@
+.footer-background {
+    background-color: rgb(26, 126, 117);
+}
+
+.adress {
+    margin-top: 20px;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.footer-list {
+    color: beige;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.footer-list:hover {
+    color: rgb(13, 13, 14);
+    font-weight: bold;
+}
+
+.contact-email {
+    color: beige;
+    padding-top: 5px;
+}
+
+.address-contacts {
+    color: beige;
+    font-size: 14px;
+
+}

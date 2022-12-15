@@ -1,19 +1,27 @@
 .navbar-nav {
     padding-right: 50px;
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
 
 
 }
 
 .nav-item {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     padding-left: 50px;
     font-size: 20px;
 }
 
 .link-item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
     color: lightgray;
     text-decoration: none;
+    font-size: 16px;
 }
 
 .link-item:hover {

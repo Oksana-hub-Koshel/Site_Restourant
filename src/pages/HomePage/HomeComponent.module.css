@@ -3,5 +3,7 @@
 }
 
 .card {
-    color: red
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }

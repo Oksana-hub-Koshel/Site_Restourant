@@ -1,5 +1,5 @@
 import * as Actiontypes from './ActionTypes';
-import { baseUrl } from '../shared/baseUrl';
+import {baseUrl} from '../shared/baseUrl';
 
 
 // COMMENTS
@@ -32,14 +32,13 @@ export const postComment = (dishId, rating, comment, author) => (dispatch) => { 
     return fetch(baseUrl + 'comments', {
         method: 'POST',
         body: JSON.stringify(newComment),
-        headers: { 'Content-Type': 'application/json' },
+        headers: {'Content-Type': 'application/json'},
         credentials: 'same-origin'
     })
         .then(response => {
             if (response.ok) {
                 return response;
-            }
-            else {
+            } else {
                 var error = new Error('Error ' + response.status + ': ' + response.statusText)
                 error.response = response;
                 throw error;
@@ -62,8 +61,7 @@ export const fetchComments = () => (dispatch) => {                         //red
         .then(response => {
             if (response.ok) {
                 return response;
-            }
-            else {
+            } else {
                 var error = new Error('Error ' + response.status + ': ' + response.statusText)
                 error.response = response;
                 throw error;
@@ -75,7 +73,8 @@ export const fetchComments = () => (dispatch) => {                         //red
 
         .then(response => response.json())
         .then(comments => dispatch(addComments(comments)))
-        .catch(error => dispatch(commentsFailed(error.message)));;
+        .catch(error => dispatch(commentsFailed(error.message)));
+    ;
 }
 
 
@@ -98,13 +97,12 @@ export const addDishes = (dishes) => ({
 
 export const fetchDishes = () => (dispatch) => {                       //redux thunk
     dispatch(dishesLoading(true));
+    return fetch('https://fakestoreapi.com/products')
 
-    return fetch(baseUrl + 'dishes')
         .then(response => {
             if (response.ok) {
                 return response;
-            }
-            else {
+            } else {
                 var error = new Error('Error ' + response.status + ': ' + response.statusText)
                 error.response = response;
                 throw error;
@@ -117,9 +115,6 @@ export const fetchDishes = () => (dispatch) => {                       //redux t
         .then(dishes => dispatch(addDishes(dishes)))
         .catch(error => dispatch(dishesFailed(error.message)));
 }
-
-
-
 
 
 // PROMOS
@@ -147,8 +142,7 @@ export const fetchPromos = () => (dispatch) => {                           //red
         .then(response => {
             if (response.ok) {
                 return response;
-            }
-            else {
+            } else {
                 var error = new Error('Error ' + response.status + ': ' + response.statusText)
                 error.response = response;
                 throw error;
@@ -160,7 +154,8 @@ export const fetchPromos = () => (dispatch) => {                           //red
 
         .then(response => response.json())
         .then(promos => dispatch(addPromos(promos)))
-        .catch(error => dispatch(promosFailed(error.message)));;
+        .catch(error => dispatch(promosFailed(error.message)));
+    ;
 }
 
 
@@ -188,8 +183,7 @@ export const fetchLeaders = () => (dispatch) => {                           //re
         .then(response => {
             if (response.ok) {
                 return response;
-            }
-            else {
+            } else {
                 var error = new Error('Error ' + response.status + ': ' + response.statusText)
                 error.response = response;
                 throw error;
@@ -201,5 +195,6 @@ export const fetchLeaders = () => (dispatch) => {                           //re
 
         .then(response => response.json())
         .then(leaders => dispatch(addLeaders(leaders)))
-        .catch(error => dispatch(leadersFailed(error.message)));;
+        .catch(error => dispatch(leadersFailed(error.message)));
+    ;
 }

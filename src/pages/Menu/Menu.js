@@ -71,8 +71,8 @@ function RenderMenuItem({product}) {
                     </IconButton>
                 }
                 title={product.title}
-                subheader={product.rating.rate}
-            />
+                subheader={product.rating.rate}>
+            </CardHeader>
             <div
                 className={s.img}
                 // image={product.image}

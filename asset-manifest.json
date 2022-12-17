@@ -1,24 +1,20 @@
 {
   "files": {
-    "main.css": "/Site_Restourant/static/css/main.f6da5717.css",
-    "main.js": "/Site_Restourant/static/js/main.355e8092.js",
+    "main.css": "/Site_Restourant/static/css/main.5d9eeec6.css",
+    "main.js": "/Site_Restourant/static/js/main.6102417e.js",
     "static/js/787.2e4ac314.chunk.js": "/Site_Restourant/static/js/787.2e4ac314.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Site_Restourant/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/alberto.png": "/Site_Restourant/static/media/alberto.5125d8c0f36dc09eabb8.png",
-    "static/media/vadonut.png": "/Site_Restourant/static/media/vadonut.8fd2aada6af2623c7b71.png",
     "static/media/fontawesome-webfont.eot": "/Site_Restourant/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Site_Restourant/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/buffet.png": "/Site_Restourant/static/media/buffet.e149d560420ff91f8bc7.png",
-    "static/media/logo.webp": "/Site_Restourant/static/media/logo.7fb77417ba3e2b51bf4d.webp",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/Site_Restourant/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Site_Restourant/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/Site_Restourant/index.html",
-    "main.f6da5717.css.map": "/Site_Restourant/static/css/main.f6da5717.css.map",
-    "main.355e8092.js.map": "/Site_Restourant/static/js/main.355e8092.js.map",
+    "main.5d9eeec6.css.map": "/Site_Restourant/static/css/main.5d9eeec6.css.map",
+    "main.6102417e.js.map": "/Site_Restourant/static/js/main.6102417e.js.map",
     "787.2e4ac314.chunk.js.map": "/Site_Restourant/static/js/787.2e4ac314.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6da5717.css",
-    "static/js/main.355e8092.js"
+    "static/css/main.5d9eeec6.css",
+    "static/js/main.6102417e.js"
   ]
 }
